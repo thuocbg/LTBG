@@ -1,0 +1,4 @@
+id: judge02
+key: "abcdefghijklmnopqrstuvwxyz123"
+problem_storage_globs:
+  - /home/devsmile/site/problems/*
