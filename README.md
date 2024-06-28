@@ -30,10 +30,10 @@ Tùy theo thực tế và nhu cầu sử dụng, cấu hình và các thông s�
 ## Cài đặt Site và Judge tự động - One-click deployment
 Tải về file cài đặt tự động và các file cấu hình mẫu.
 ```
-wget https://raw.githubusercontent.com/thuocbg/vnoi_tpbg/main/auto-install.sh
-wget https://raw.githubusercontent.com/thuocbg/vnoi_tpbg/main/local_settings.py
-wget https://raw.githubusercontent.com/thuocbg/vnoi_tpbg/main/judge01.yml
-wget https://raw.githubusercontent.com/thuocbg/vnoi_tpbg/main/judge02.yml
+wget https://raw.githubusercontent.com/thuocbg/LTBG/main/auto-install.sh
+wget https://raw.githubusercontent.com/thuocbg/LTBG/main/local_settings.py
+wget https://raw.githubusercontent.com/thuocbg/LTBG/main/judge01.yml
+wget https://raw.githubusercontent.com/thuocbg/LTBG/main/judge02.yml
 ```
 Thay thế một số thông số cho phù hợp với hệ thống.
 - User Ubuntu
@@ -64,4 +64,4 @@ Kiểm tra ở mục **STATUS** trên website để xem trạng thái kết nố
 Chúc các bạn thành công. 
 
 ### Reach out to me 👓
-<a href="https://www.facebook.com/VietThienTran.301"><img src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png" width="32px" height="32px"> </a><a href="https://www.youtube.com/@vietthientran3140"><img src="https://cdn.icon-icons.com/icons2/1907/PNG/512/iconfinder-youtube-4555888_121363.png" width="32px" height="32px"></a>
+<a href="https://hoc24h.org"><img src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png" width="32px" height="32px"> </a><a href="https://www.youtube.com/@vThuocNguyenvan"><img src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png" width="32px" height="32px"></a>
