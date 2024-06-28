@@ -41,4 +41,6 @@ wget https://raw.githubusercontent.com/thuocbg/vnoi_tpbg/main/judge02.yml
 cd ..
 python3 manage.py addjudge judge01 "abcdefghijklmnopqrstuvwxyz"
 python3 manage.py addjudge judge02 "abcdefghijklmnopqrstuvwxyz123"
+sudo apt update
+sudo apt -y install python3 python3-pip
 pip3 install dmoj
