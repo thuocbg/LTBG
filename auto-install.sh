@@ -4,7 +4,7 @@ sudo apt install -y git gcc g++ make python3-dev python3-pip python3-venv libxml
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 sudo npm install -g sass postcss-cli postcss autoprefixer
-
+sudo apt -y install python3 python3-pip
 # Install mysql server
 sudo apt update -y
 sudo apt install -y mariadb-server libmysqlclient-dev
@@ -41,6 +41,4 @@ wget https://raw.githubusercontent.com/thuocbg/vnoi_tpbg/main/judge02.yml
 cd ..
 python3 manage.py addjudge judge01 "abcdefghijklmnopqrstuvwxyz"
 python3 manage.py addjudge judge02 "abcdefghijklmnopqrstuvwxyz123"
-sudo apt update
-sudo apt -y install python3 python3-pip
 pip3 install dmoj
