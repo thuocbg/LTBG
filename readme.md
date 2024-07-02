@@ -92,7 +92,7 @@ MYSQL_DATABASE=dmoj
 MYSQL_USER=dmoj
 MYSQL_PASSWORD=Thuocnv1202@			#thay doi password
 ```
->Đổi tên file mysql-admin.example thành mysql-admin.env bằng lệnh
+>Đổi tên file mysql-admin.env.example thành mysql-admin.env bằng lệnh
 nano mysql-admin.example
 * mysql-admin.env
 ```
@@ -100,7 +100,7 @@ MYSQL_ROOT_PASSWORD=Thuocnv1202@		#thay doi password
 ```
 * site.env
 Đổi tên file site.example thành file site.env bằng lệnh
-nano site.example
+nano site.env.example
 ```
 HOST=192.168.1.60				#thay bang IP cua Local Server
 SITE_FULL_URL=http://192.168.1.60/
@@ -130,11 +130,11 @@ copy lệnh dưới vào sau dòng lệnh trên
 ```
 Build Docker Image
 ```
-sudo docker-compose build
+sudo docker compose build
 ```
 Khởi động thành phần site để thực hiện cấu hình
 ```
-sudo docker-compose up -d site
+sudo docker compose up -d site
 ```
 Khởi tạo dữ liệu cho Database
 ```
