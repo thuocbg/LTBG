@@ -32,3 +32,5 @@ nano site.env.example
 #SECRET_KEY=abcdefghijklmnopqrstuvwxyz		#thay doi bang ma khoa tuy y
 cd ..
 nano nginx/conf.d/nginx.conf
+# Sửa servername thành địa chỉ IP
+
