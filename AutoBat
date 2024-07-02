@@ -16,7 +16,7 @@ sudo docker run hello-world
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 git clone --recursive https://github.com/VNOI-Admin/vnoj-docker.git
-cd vnoj-docker/dmoj
+cd vnoj-docker/dmoj/environment
 nano mysql-admin.env.example
 #MYSQL_ROOT_PASSWORD=thdt1234		#thay doi password
 #
@@ -30,3 +30,5 @@ nano site.env.example
 #MEDIA_URL=http://77.37.47.84/
 #DEBUG=0
 #SECRET_KEY=abcdefghijklmnopqrstuvwxyz		#thay doi bang ma khoa tuy y
+cd ..
+nano nginx/conf.d/nginx.conf
