@@ -1,7 +1,7 @@
 id: judge01
 key: "abcdefghijklmnopqrstuvwxyz"
 problem_storage_globs:
-  - /home/devsmile/site/problems/*
+  - /home/site/problems/*
 runtime:
   ccl: /opt/ccl/lx86cl
   sed: /bin/sed
